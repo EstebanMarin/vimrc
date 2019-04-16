@@ -226,6 +226,8 @@ Plug 'johngrib/vim-game-code-break'
 Plug 'tpope/vim-commentary'
 "Vim surround 
 Plug 'tpope/vim-surround'
+"Git Wrapper
+Plug 'tpope/vim-fugitive'
 ""Completion
 Plug 'Valloric/YouCompleteMe'
 ""fzf vim for searching files
