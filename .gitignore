@@ -71,6 +71,7 @@
 .zshrc
 .zshrc.pre-oh-my-zsh
 Applications
+.httpie/
 Desktop
 Documents
 Downloads
