@@ -12,8 +12,7 @@
 .bash_profile
 .bash_sessions
 .bashrc
-
-
+.httpie/
 .config/configstore/*
 .config/devcert/*
 .config/gcloud/*
