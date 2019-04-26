@@ -149,6 +149,8 @@ let g:ale_linters = { 'javascript': ['eslint'], 'typescript': ['tsserver'] , 'py
 let g:ale_fixers = { 'javascript': ['prettier'], 'typescript': ['prettier'], 'python':['autopep8'] }
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1 
+""  " Bind F8 to fixing problems with ALE
+ nmap <F8> <Plug>(ale_fix)
 
 " NERDTree configurations 
 "Auto open
