@@ -10,6 +10,7 @@
 "
 "-------------------------------------------------------------------------------------------
 "-------------------------------------------------------------------------------------------
+"
 " Name: ~./vimrc
 "   Sections                                                                                      
 "   ----------------------*
@@ -264,5 +265,5 @@ call plug#end()
 """Solarized Theme configurations
 " Make sure for iTerm2 the Solarized theme is active too. 
 " info for configuration https://www.youtube.com/watch?v=zNcEkbVYqbc
-set background=light
 colorscheme solarized
+set background=dark
