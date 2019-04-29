@@ -1,4 +1,5 @@
 "------------------------------------------------------------------------------------------
+"Multiple Cursors
 "-------------------------------------------------------------------------------------------
 " __  __     ______                                                   __            _     
 "/\ \/\ \   /\__  _\     /'\_/`\                                    /'__`\        /' \    
@@ -207,8 +208,10 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 
 " Treat mdx as md
 autocmd BufNewFile,BufRead *.mdx set syntax=markdown
-
-let g:python_host_prog="/usr/local/bin/python2.7"
+"python settings
+let g:loaded_python_provider = 1
+let g:python3_host_prog = "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
+" let g:python_host_prog="/usr/local/bin/python2.7"
 
 let g:session_autosave = 'yes'
 let g:session_autoload = 'yes'
@@ -251,17 +254,46 @@ Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 "AIRLINE
 Plug 'bling/vim-airline'
-"Multiple Cursors
-Plug 'terryma/vim-multiple-cursors'
 "" Solarized
 Plug 'altercation/vim-colors-solarized'
 ""WinResize
 Plug 'simeji/winresizer'
 ""Grammar correction 
 Plug 'rhysd/vim-grammarous'
+"" Reason Language Server
+Plug 'reasonml-editor/vim-reason-plus'
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+
+" for neovim
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" for vim 8 with python
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+  " the path to python3 is obtained through executing `:echo exepath('python3')` in vim
+  let g:python3_host_prog = "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7"
+endif
+"" Reason Language Server
 call plug#end()
 
+"" Reason Language Server
+let g:LanguageClient_serverCommands = {
+    \ 'reason': ['/Users/emarin/Documents/FE/study/Reason/reason-language-server'],
+    \ }
 
+" enable autocomplete
+let g:LanguageClient_devel = 1 " ERROR
+let g:deoplete#enable_at_startup = 1
+nnoremap <silent> gd :call LanguageClient_textDocument_definition()<cr>
+nnoremap <silent> gf :call LanguageClient_textDocument_formatting()<cr>
+nnoremap <silent> <cr> :call LanguageClient_textDocument_hover()<cr>
+"" Reason Language Server
+"
 """Solarized Theme configurations
 " Make sure for iTerm2 the Solarized theme is active too. 
 " info for configuration https://www.youtube.com/watch?v=zNcEkbVYqbc
