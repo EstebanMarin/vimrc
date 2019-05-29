@@ -146,10 +146,13 @@ let g:user_emmet_settings = {
 let g:airline#extensions#ale#enabled = 1
 
 ""ale configurations
-let g:ale_linters = { 'javascript': ['eslint'], 'typescript': ['tsserver'] , 'python':['autopep8'] }
-let g:ale_fixers = { 'javascript': ['prettier'], 'typescript': ['prettier'], 'python':['autopep8'] }
+let g:ale_linters = { 'javascript': ['eslint'], 'typescript': ['tssever', 'tslint'] , 'python':['autopep8'] }
+let g:ale_fixers = { 'javascript': ['prettier'], 'typescript': ['prettier', 'tslint'], 'python':['autopep8'] }
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1 
+
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
 "" happy surprises
 let g:ale_echo_cursor = 1
 let g:ale_echo_msg_error_str  = '🔴'
@@ -160,6 +163,12 @@ let g:ale_echo_msg_warning_str = '⚠️'
  
 
 " NERDTree configurations 
+" Relative numbering NerdTree
+" enable line numbers
+let NERDTreeShowLineNumbers=1
+" make sure relative line numbers are used
+autocmd FileType nerdtree setlocal relativenumber
+
 "Auto open
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -194,6 +203,8 @@ let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' ch
 let g:typescript_indent_disable = 1
 " set filetypes as typescript.tsx
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
+""comment TSX better
+autocmd FileType typescript.tsx setlocal commentstring={/*\ %s\ */}
 """ light blue
 hi tsxTagName guifg=#59ACE5
 " dark blue
@@ -274,4 +285,4 @@ call plug#end()
 " Make sure for iTerm2 the Solarized theme is active too. 
 " info for configuration https://www.youtube.com/watch?v=zNcEkbVYqbc
 colorscheme solarized
-set background=dark
+set background=light
