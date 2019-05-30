@@ -1,4 +1,4 @@
-tsserver.organizeImports
-tsserver.executeAutofix
 tsserver.watchBuild
+tsserver.executeAutofix
+tsserver.organizeImports
 tsserver.openTsServerLog

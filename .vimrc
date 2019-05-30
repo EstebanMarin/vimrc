@@ -71,6 +71,8 @@ set foldenable "Enable folding
 set foldlevelstart=10 "Open most of the folds by default. If set to 0, all folds will be closed.
 set foldnestmax=10 "Folds can be nested. Setting a max value protects you from too many folds.
 set foldmethod=manual "Defines the type of folding.
+let javascript_fold=1
+let typescript_fold=1
 
 ""GENERAL MAPPING!!!
 "Emmet remaping
@@ -329,14 +331,14 @@ nnoremap <silent> <space>o  :<C-u>CocList outline<cr>
 " Search workspace symbols
 nnoremap <silent> <space>s  :<C-u>CocList -I symbols<cr>
 " Do default action for next item.
-nnoremap <silent> <space>j  :<C-u>CocNext<CR>
+nnoremap <silent> <space>cj  :<C-u>CocNext<CR>
 " Do default action for previous item.
-nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
+nnoremap <silent> <space>ck  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>r  :<C-u>CocListResume<CR>
 " Prettier every time all the time
 let g:prettier#quickfix_enabled = 0
 let g:prettier#exec_cmd_async = 1
 let g:prettier#autoformat = 0
-autocmd BufWritePre,TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+""autocmd BufWritePre,TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
