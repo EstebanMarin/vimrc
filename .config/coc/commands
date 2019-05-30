@@ -1,0 +1,4 @@
+tsserver.organizeImports
+tsserver.executeAutofix
+tsserver.watchBuild
+tsserver.openTsServerLog
