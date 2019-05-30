@@ -334,7 +334,7 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>r  :<C-u>CocListResume<CR>
-" when running at every change you may want to disable quickfix
+" Prettier every time all the time
 let g:prettier#quickfix_enabled = 0
 let g:prettier#exec_cmd_async = 1
 let g:prettier#autoformat = 0
