@@ -84,3 +84,6 @@ go
 help
 node_modules
 package-lock.json
+.config/htop/
+.pylint.d/
+.v8flags.6.8.275.32-node.52.92657ee3e40b1b83b4372197f866a7de.json
