@@ -5,8 +5,8 @@
     "coc-html": "^1.0.7",
     "coc-json": "^1.0.17",
     "coc-python": "^1.1.14",
-    "coc-tailwindcss": "^0.2.1",
+    "coc-tailwindcss": "^0.2.2",
     "coc-tslint-plugin": "^1.0.4",
-    "coc-tsserver": "^1.2.2"
+    "coc-tsserver": "^1.2.6"
   }
 }

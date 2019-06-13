@@ -349,10 +349,10 @@ coc-python@^1.1.14:
     winreg "^1.2.4"
     xml2js "^0.4.19"
 
-coc-tailwindcss@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/coc-tailwindcss/-/coc-tailwindcss-0.2.1.tgz#f0a132726f78bc5d80debfa468f11e3ccc878aee"
-  integrity sha512-GKQ78KdSMjL6Rwh5BXiTRLG7Oe2Li1DZQCbElUFq8WQbj6+80mhx81+FmaxjTHq5grCVDd02M6UULpFitFdCpA==
+coc-tailwindcss@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/coc-tailwindcss/-/coc-tailwindcss-0.2.2.tgz#3f9e6de6fd1966ab2bce86f5b6240ce9706e8a4b"
+  integrity sha512-xU3T/0aLgh3Xh9tRUyfm17uZKfQACLlQ1WsRfk5NTSsOl0iSBtiyTw/IloqpTXTS2U500VnAgYuJpJFJV6yP6Q==
   dependencies:
     fast-glob "^2.2.7"
     tailwindcss-language-server "0.0.1"
@@ -367,10 +367,10 @@ coc-tslint-plugin@^1.0.4:
     vscode-languageserver-protocol "^3.15.0-next.1"
     vscode-uri "^1.0.6"
 
-coc-tsserver@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/coc-tsserver/-/coc-tsserver-1.2.2.tgz#ae5b3ae15801c2e8cfc818c42b1755e37cc17fe2"
-  integrity sha512-Dh2Qs9plNEjYI1yQo1WbKHx3SX7rGPi0VUfNbmgOiOevpHRM4bFOM7OUwyv2kCSPI/tyEPsKmWdS2Jy6KEczxA==
+coc-tsserver@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/coc-tsserver/-/coc-tsserver-1.2.6.tgz#ce4ea843467609ed7625691c39cabf92272893e2"
+  integrity sha512-vhFEZ1/GzHXgb2QLonowj7AuVVZjPrUIY0lSGGyF66nYYcpZfWNakKLL8UI33hrI69MQKjt8YlY/eKqvVlvF7g==
   dependencies:
     fast-diff "^1.2.0"
     find-up "^3.0.0"

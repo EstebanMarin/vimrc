@@ -1,4 +1,8 @@
+python.startREPL
+tsserver.organizeImports
 tsserver.watchBuild
 tsserver.executeAutofix
-tsserver.organizeImports
 tsserver.openTsServerLog
+python.execInTerminal
+python.runLinting
+tsserver.goToProjectConfig
