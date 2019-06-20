@@ -9,9 +9,7 @@
 .android
 .babel.json
 .bash_history
-.bash_profile
 .bash_sessions
-.bashrc
 .httpie/
 .config/configstore/*
 .config/devcert/*

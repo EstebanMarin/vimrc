@@ -2,43 +2,10 @@
 # yarn lockfile v1
 
 
-"@emmetio/css-parser@ramya-rao-a/css-parser#vscode":
-  version "0.4.0"
-  resolved "https://codeload.github.com/ramya-rao-a/css-parser/tar.gz/370c480ac103bd17c7bcfb34bf5d577dc40d3660"
-  dependencies:
-    "@emmetio/stream-reader" "^2.2.0"
-    "@emmetio/stream-reader-utils" "^0.1.0"
-
 "@emmetio/extract-abbreviation@0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@emmetio/extract-abbreviation/-/extract-abbreviation-0.1.6.tgz#e4a9856c1057f0aff7d443b8536477c243abe28c"
   integrity sha512-Ce3xE2JvTSEbASFbRbA1gAIcMcZWdS2yUYRaQbeM0nbOzaZrUYfa3ePtcriYRZOZmr+CkKA+zbjhvTpIOAYVcw==
-
-"@emmetio/html-matcher@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@emmetio/html-matcher/-/html-matcher-0.3.3.tgz#0bbdadc0882e185950f03737dc6dbf8f7bd90728"
-  integrity sha1-C72twIguGFlQ8Dc33G2/j3vZByg=
-  dependencies:
-    "@emmetio/stream-reader" "^2.0.0"
-    "@emmetio/stream-reader-utils" "^0.1.0"
-
-"@emmetio/math-expression@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@emmetio/math-expression/-/math-expression-0.1.1.tgz#1ff2c7f05800f64c57ca89038ee18bce9f5776dc"
-  integrity sha1-H/LH8FgA9kxXyokDjuGLzp9Xdtw=
-  dependencies:
-    "@emmetio/stream-reader" "^2.0.1"
-    "@emmetio/stream-reader-utils" "^0.1.0"
-
-"@emmetio/stream-reader-utils@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@emmetio/stream-reader-utils/-/stream-reader-utils-0.1.0.tgz#244cb02c77ec2e74f78a9bd318218abc9c500a61"
-  integrity sha1-JEywLHfsLnT3ipvTGCGKvJxQCmE=
-
-"@emmetio/stream-reader@^2.0.0", "@emmetio/stream-reader@^2.0.1", "@emmetio/stream-reader@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@emmetio/stream-reader/-/stream-reader-2.2.0.tgz#46cffea119a0a003312a21c2d9b5628cb5fcd442"
-  integrity sha1-Rs/+oRmgoAMxKiHC2bVijLX81EI=
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -261,41 +228,24 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-coc-css@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/coc-css/-/coc-css-1.0.7.tgz#b7a2492165b7a596a093347595d75a9a47ae08e5"
-  integrity sha512-09Bfx+AhO4eMwpJFLdRLRsbXNDuRiYG38+D6z8wsDQjhXLCI779E1nL36+X/DGL4H2LZ3Df1QmofubMkXqZMqw==
-  dependencies:
-    tslib "^1.9.3"
-    vscode-css-languageservice "^3.0.12"
-    vscode-languageserver "^5.1.0"
-    vscode-languageserver-protocol "^3.13.0"
+coc-css@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/coc-css/-/coc-css-1.2.1.tgz#972647dfb2d7ec246154cf7add31772548cc63c8"
+  integrity sha512-QrETdc6wyvlAYe00L02fDRf+Cd5NjZBtkMUMD/9UPQ5EvL2R14wuRGR8Ni8wECAeM248iA8KxedB5/IEZwMA/w==
 
-coc-emmet@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/coc-emmet/-/coc-emmet-1.0.9.tgz#a4035cfba1d1dafdc114a642bcd4f70905af113f"
-  integrity sha512-dCtCeTd2c5SWFuyDkuhyESXZdFH7D9FDa9+QwWss1hbvSqS7ni9xQ+IGkU2hisvaQlB76hzJscWU/o4E1pXs3w==
+coc-emmet@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/coc-emmet/-/coc-emmet-1.1.3.tgz#135a6a527a25fcf44432a983220e2de3f880cfe0"
+  integrity sha512-FTWuUqxH0NEEHgTLSl4XiggB437nrfjnsqF2SaepAL6xnNfYxSLWkp2Npm+hEwjgu8hcIb2csaeIURWrUGuu5Q==
   dependencies:
-    "@emmetio/css-parser" ramya-rao-a/css-parser#vscode
-    "@emmetio/html-matcher" "^0.3.3"
-    "@emmetio/math-expression" "^0.1.1"
-    tslib "^1.9.3"
-    vscode-emmet-helper "^1.2.12"
-    vscode-languageserver-protocol "^3.13.0"
-    vscode-uri "^1.0.6"
+    vscode-emmet-helper "^1.2.15"
 
-coc-html@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/coc-html/-/coc-html-1.0.7.tgz#9b4a4c80684fe4ba49f7b313850e23f2cb79c6a3"
-  integrity sha512-TmIGj76PttArDeIjg7psPSLlVpm5Ya3xICwjogNPn2i3Ey1MnSxGPycw1jfaKpITsAOF3ZNRVn2dBVSG7vxSfQ==
+coc-html@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/coc-html/-/coc-html-1.2.1.tgz#5df000feddcc304f57932bdb561ad61f773ddfeb"
+  integrity sha512-3CAdlJnPnm03qS4/I+eMM16OI3go2v6qtCOirO20GtH+cRt08GjF0Cp6y/EnhfoQOdggNw3xoTfZtfY7loLG5w==
   dependencies:
-    tslib "^1.9.3"
-    typescript "^3.2.2"
-    vscode-css-languageservice "^3.0.13-next.3"
-    vscode-html-languageservice "^2.1.11-next.2"
-    vscode-languageserver "^5.2.1"
-    vscode-languageserver-types "^3.14.0"
-    vscode-uri "^1.0.6"
+    typescript "^3"
 
 coc-json@^1.0.17:
   version "1.0.17"
@@ -1636,10 +1586,10 @@ typescript@3.3.4000:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.4000.tgz#76b0f89cfdbf97827e1112d64f283f1151d6adf0"
   integrity sha512-jjOcCZvpkl2+z7JFn0yBOoLQyLoIkNZAs/fYJkUG6VKy6zLPHJGfQJYFHzibB6GJaF/8QrcECtlQ5cpvRHSMEA==
 
-typescript@^3.2.2:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
-  integrity sha512-64HkdiRv1yYZsSe4xC1WVgamNigVYjlssIoaH2HcZF0+ijsk5YK2g0G34w9wJkze8+5ow4STd22AynfO6ZYYLw==
+typescript@^3:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
+  integrity sha512-7KxJovlYhTX5RaRbUdkAXN1KUZ8PwWlTzQdHV6xNqvuFOs7+WBo10TQUqT19Q/Jz2hk5v9TQDIhyLhhJY4p5AA==
 
 uint64be@^2.0.2:
   version "2.0.2"
@@ -1727,15 +1677,7 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vscode-css-languageservice@^3.0.12, vscode-css-languageservice@^3.0.13-next.3:
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/vscode-css-languageservice/-/vscode-css-languageservice-3.0.13.tgz#1788735b65fde54181ea458e6a52cc2bd6dd9126"
-  integrity sha512-RWkO/c/A7iXhHEy3OuEqkCqavDjpD4NF2Ca8vjai+ZtEYNeHrm1ybTnBYLP4Ft1uXvvaaVtYA9HrDjD6+CUONg==
-  dependencies:
-    vscode-languageserver-types "^3.13.0"
-    vscode-nls "^4.0.0"
-
-vscode-emmet-helper@^1.2.12:
+vscode-emmet-helper@^1.2.15:
   version "1.2.15"
   resolved "https://registry.yarnpkg.com/vscode-emmet-helper/-/vscode-emmet-helper-1.2.15.tgz#62dbfbf49bb9ebe329cb7bffdda5aaac725eea7a"
   integrity sha512-JplvmMMWSvm/6/dZezix2ADPM49u6YahPYjs/QToohUpomW/2Eb27ecCrkCyOGBPfKLKGiOPHCssss8TSDA9ag==
@@ -1743,15 +1685,6 @@ vscode-emmet-helper@^1.2.12:
     "@emmetio/extract-abbreviation" "0.1.6"
     jsonc-parser "^1.0.0"
     vscode-languageserver-types "^3.6.0-next.1"
-
-vscode-html-languageservice@^2.1.11-next.2:
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/vscode-html-languageservice/-/vscode-html-languageservice-2.1.12.tgz#b4f9e23cac6fea74d4c9825fb4a4ef9bf313785e"
-  integrity sha512-mIb5VMXM5jI97HzCk2eadI1K//rCEZXte0wBqA7PGXsyJH4KTyJUaYk9MR+mbfpUl2vMi3HZw9GUOLGYLc6l5w==
-  dependencies:
-    vscode-languageserver-types "^3.13.0"
-    vscode-nls "^4.0.0"
-    vscode-uri "^1.0.6"
 
 vscode-json-languageservice@^3.3.0-next.7:
   version "3.3.0-next.7"
@@ -1773,7 +1706,7 @@ vscode-jsonrpc@^4.1.0-next.2:
   resolved "https://registry.yarnpkg.com/vscode-jsonrpc/-/vscode-jsonrpc-4.1.0-next.2.tgz#3bd318910a48e631742b290975386e3dae685be3"
   integrity sha512-GsBLjP9DxQ42yl1mW9GEIlnSc0+R8mfzhaebwmmTPEJjezD5SPoAo3DFrIAFZha9yvQ1nzZfZlhtVpGQmgxtXg==
 
-vscode-languageserver-protocol@3.14.1, vscode-languageserver-protocol@^3.13.0, vscode-languageserver-protocol@^3.14.1:
+vscode-languageserver-protocol@3.14.1, vscode-languageserver-protocol@^3.14.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.14.1.tgz#b8aab6afae2849c84a8983d39a1cf742417afe2f"
   integrity sha512-IL66BLb2g20uIKog5Y2dQ0IiigW0XKrvmWiOvc0yXw80z3tMEzEnHjaGAb3ENuU7MnQqgnYJ1Cl2l9RvNgDi4g==
@@ -1789,7 +1722,7 @@ vscode-languageserver-protocol@3.15.0-next.5, vscode-languageserver-protocol@^3.
     vscode-jsonrpc "^4.1.0-next.2"
     vscode-languageserver-types "3.15.0-next.1"
 
-vscode-languageserver-types@3.14.0, vscode-languageserver-types@^3.13.0, vscode-languageserver-types@^3.14.0, vscode-languageserver-types@^3.6.0-next.1:
+vscode-languageserver-types@3.14.0, vscode-languageserver-types@^3.14.0, vscode-languageserver-types@^3.6.0-next.1:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.14.0.tgz#d3b5952246d30e5241592b6dde8280e03942e743"
   integrity sha512-lTmS6AlAlMHOvPQemVwo3CezxBp0sNB95KNPkqp3Nxd5VFEnuG1ByM0zlRWos0zjO3ZWtkvhal0COgiV1xIA4A==
@@ -1799,7 +1732,7 @@ vscode-languageserver-types@3.15.0-next.1:
   resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.15.0-next.1.tgz#eddca4cf2a2547357006d4f0cc177ddc56043b65"
   integrity sha512-R0kzmaI8gOGEoU7b9huYQAzgZzRQ/5Q8HKjsIUdfz0MjXcBZ4tr1ik1So1p1O5kGrI1VTCd22Fw/wI7ECGoIPw==
 
-vscode-languageserver@^5.1.0, vscode-languageserver@^5.2.1:
+vscode-languageserver@^5.1.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/vscode-languageserver/-/vscode-languageserver-5.2.1.tgz#0d2feddd33f92aadf5da32450df498d52f6f14eb"
   integrity sha512-GuayqdKZqAwwaCUjDvMTAVRPJOp/SLON3mJ07eGsx/Iq9HjRymhKWztX41rISqDKhHVVyFM+IywICyZDla6U3A==

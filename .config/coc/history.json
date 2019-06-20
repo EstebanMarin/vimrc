@@ -11,7 +11,6 @@
       "jk",
       "kkkkk",
       "jjjk",
-      " c",
       "Error",
       "/S",
       "/Error",
@@ -30,7 +29,8 @@
       "eeta",
       "DetailsForm.tsx",
       "UsersDr",
-      ":q"
+      ":q",
+      " c"
     ],
     "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-organization%2Fsrc%2Fhelpers": [
       "n e ",
@@ -39,6 +39,10 @@
       ":q",
       "\\]",
       " q"
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-organization%2Fsrc": [
+      "jj",
+      " c"
     ]
   },
   "extensions": {
@@ -70,6 +74,21 @@
       "python",
       "start",
       "rpl"
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2Fstudy%2FPython%2FFrontEndMasters%2Fpython%2FtestEnv": [
+      "python4\\",
+      "python",
+      "python."
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-organization%2Fsrc": [
+      "tsserver",
+      "tsse",
+      " c"
+    ]
+  },
+  "outline": {
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2Fstudy%2FPython%2FFrontEndMasters%2Fpython%2FtestEnv": [
+      ":q"
     ]
   }
 }
