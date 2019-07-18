@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo listo Perro 🚀🚀🚀🚀🚀
+cd ~/Documents/FE/Clients/VideoAmp/full-circle/
+./clean-build-and-restart.sh && ./fordev.sh
+

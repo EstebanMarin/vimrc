@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo listo socio 🚗
+cd ~/Documents/FE/Clients/VideoAmp/full-circle/fc-organization
+npx tsc --watch
+

@@ -14,3 +14,5 @@ export PATH=$PATH:$GOPATH/bin
 export WORKON_HOME=~/.virtualenvs
 [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

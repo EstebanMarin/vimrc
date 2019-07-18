@@ -165,6 +165,8 @@ set mouse=a
 
 
 call plug#begin('~/.config/nvim/plugged')
+"ZEN mode
+Plug 'junegunn/goyo.vim'
 "" Vim Auto pair plugin
 Plug 'tmsvg/pear-tree'
 ""Vim Game
@@ -176,7 +178,7 @@ Plug 'tpope/vim-surround'
 "Git Wrapper
 Plug 'tpope/vim-fugitive'
 " Completion 
-Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ""fzf vim for searching files
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -186,7 +188,6 @@ Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 ""TypeScript
-Plug 'quramy/tsuquyomi'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 "AIRLINE
@@ -195,10 +196,9 @@ Plug 'bling/vim-airline'
 Plug 'altercation/vim-colors-solarized'
 ""WinResize
 Plug 'simeji/winresizer'
-""Grammar correction 
-Plug 'rhysd/vim-grammarous'
-""Prettier official
+"" Prettier
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+""Grammar correction 
 call plug#end()
 
 
@@ -337,8 +337,11 @@ nnoremap <silent> <space>r  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>r  :<C-u>CocListResume<CR>
 " Prettier every time all the time
+nmap <Leader>f <Plug>(Prettier)
+""let g:prettier#exec_cmd_async = 1
 let g:prettier#quickfix_enabled = 0
-let g:prettier#exec_cmd_async = 1
 let g:prettier#autoformat = 0
-""autocmd BufWritePre,TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+""autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+"Goyo ZEN mode
+let g:goyo_width = 100
 

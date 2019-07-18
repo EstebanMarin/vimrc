@@ -1,4 +1,9 @@
+python.setInterpreter
+prettier.formatFile
 tsserver.restart
+tsserver.watchBuild
+tsserver.executeAutofix
+tsserver.reloadProjects
 tsserver.organizeImports
 python.createTerminal
 python.execInTerminal
@@ -6,7 +11,5 @@ python._loadLanguageServerExtension
 python.viewOutput
 python.runLinting
 python.startREPL
-tsserver.watchBuild
-tsserver.executeAutofix
 tsserver.openTsServerLog
 tsserver.goToProjectConfig

@@ -42,7 +42,10 @@
     ],
     "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-organization%2Fsrc": [
       "jj",
-      " c"
+      " c",
+      " cj",
+      "kk",
+      " wk"
     ]
   },
   "extensions": {
@@ -81,14 +84,34 @@
       "python."
     ],
     "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-organization%2Fsrc": [
+      " c",
+      "tsser",
       "tsserver",
-      "tsse",
-      " c"
+      "tsse"
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2Fstudy%2FPython%2FDjango": [
+      "python.set"
     ]
   },
   "outline": {
     "%2FUsers%2Femarin%2FDocuments%2FFE%2Fstudy%2FPython%2FFrontEndMasters%2Fpython%2FtestEnv": [
       ":q"
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-organization%2Fsrc": [
+      "JJJJJJJ",
+      " j",
+      "state",
+      "userState",
+      " o",
+      "reducer"
+    ]
+  },
+  "marketplace": {
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-organization%2Fsrc": [
+      "kkk",
+      ":NER",
+      "tail",
+      "sy"
     ]
   }
 }
