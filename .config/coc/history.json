@@ -46,6 +46,11 @@
       " cj",
       "kk",
       " wk"
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-dsp": [
+      "error",
+      " qj",
+      ":w"
     ]
   },
   "extensions": {
@@ -91,6 +96,13 @@
     ],
     "%2FUsers%2Femarin%2FDocuments%2FFE%2Fstudy%2FPython%2FDjango": [
       "python.set"
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Framp-ui": [
+      "tsse"
+    ],
+    "%2FUsers%2Femarin%2FDocuments%2FFE%2FClients%2FVideoAmp%2Ffull-circle%2Ffc-dsp": [
+      "tsserver",
+      "tss"
     ]
   },
   "outline": {
